@@ -1,0 +1,22 @@
+.link-list-container {
+
+    h4 {
+        padding-top: 2rem;
+        color: #aaa;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        margin-bottom: 1rem;
+        transition: .3s;
+        display: block;
+        text-transform: capitalize;
+
+        &:hover {
+            color: #61dafb;
+        }
+    }
+}

@@ -1,0 +1,100 @@
+.bg-nav-top {
+    background-color: hsl(222, 14%, 10%);
+    position: fixed;
+    z-index: 9999;
+    
+    .text {
+        text-align: center;
+        padding: 1rem;
+
+        p {
+            margin: 0;
+            color: white;
+        }
+        a {
+            color: #61dafb;
+            text-decoration: none;
+        }
+    }
+}    
+
+.bg-nav-bottom {
+    background-color: #20232a;
+    height: 4rem;
+    line-height: 4rem;
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .react-logo a{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+            color: #61dafb;
+            text-decoration: none;
+            text-transform: capitalize;
+            gap: 1rem;
+
+            img {
+                fill: #61dafb;
+                width: 1.5rem;
+            }
+        }
+
+        .navigation-text {
+            display: flex;
+            gap: 1.5rem;
+
+            
+            a{
+                font-size: 20px;
+                color: white;
+                text-decoration: none;
+                transition: .3s;
+                
+                &:hover {
+                    color: #61dafb;
+                }
+            }
+        } 
+
+        .version-language {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+
+            a {
+                color: white;
+                text-decoration: none;
+                transition: .3s;
+
+                &:hover {
+                    color: #61dafb;
+                }
+            }
+
+            .language {
+                display: flex;
+                align-items: center;
+                gap: .5rem;
+                
+                svg {
+                    fill: white;
+                }
+            }
+
+            .github {
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+                svg{
+                    color: #6B6B6B;
+                }
+            }
+        }
+    }
+}
